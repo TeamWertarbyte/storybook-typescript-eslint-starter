@@ -1,7 +1,7 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { Button } from '@storybook/react/demo';
-import Test from '../src/components/MuiButton';
+import Test from '../src/components/MuiButton/MuiButton';
 import { withKnobs, text } from '@storybook/addon-knobs';
 
 export default {

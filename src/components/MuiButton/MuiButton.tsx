@@ -11,7 +11,7 @@ interface Props {
   className?: string;
 }
 
-const Index = ({ classes, className }: Props & WithStyles<typeof styles>) => {
+const MuiButton = ({ classes, className }: Props & WithStyles<typeof styles>) => {
   return (
     <div className={cx(classes.root)}>
       <Button>Test</Button>
@@ -19,4 +19,4 @@ const Index = ({ classes, className }: Props & WithStyles<typeof styles>) => {
   );
 };
 
-export default withStyles(styles)(Index);
+export default withStyles(styles)(MuiButton);
